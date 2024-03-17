@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Open Sans;
 }
 
-body{
+.top{
     background-color: #08101E;
+    padding-bottom: 99px;
+
 }
 
 .flex{
@@ -12,9 +15,6 @@ body{
     justify-content: space-between;
 }
 
-.top{
-    padding-bottom: 99px;
-}
 
 .nav{
     display: flex;
@@ -51,7 +51,6 @@ body{
 .top_info__subtitle{
     margin-bottom: 10px;
     color: rgb(58, 104, 184);
-    font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 160%;
@@ -62,7 +61,6 @@ body{
 .top_info__title{
     margin-bottom: 40px;
     color: rgb(255, 255, 255);
-    font-family: Open Sans;
     font-size: 55px;
     font-weight: 800;
     line-height: 130%;
@@ -71,7 +69,6 @@ body{
 
 .top_info__text{
     color: rgb(255, 255, 255);
-    font-family: Open Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 160%;
@@ -86,43 +83,6 @@ body{
     gap: 20px;    
 }
 
-.top__next{
-    background: rgb(2, 10, 24);;
-}
-
-.next__content{
-    margin-top: 157px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.next__content_info{
-    padding-left: 68px;
-    padding-top: 117px;
-}
-
-.next__info_title{
-    color: rgb(255, 255, 255);
-    font-family: Open Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 130%;
-    text-align: left;
-}
-
-.next__info_text{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    color: rgb(255, 255, 255);
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 160%;
-    text-align: left;
-    opacity: 0.7;
-}
-
-
 .button{
     border-radius: 5px;
     text-decoration: none;
@@ -130,11 +90,9 @@ body{
     background: rgb(58, 104, 184);
     padding: 1em 2em;
     color: rgb(255, 255, 255);
-    font-family: Open Sans;
     font-size: 20px;
     font-weight: 600;
     line-height: 27px;
-    text-align: left;
     border: 2px solid transparent;
     transition: all 0.3s;
 }
@@ -148,3 +106,128 @@ body{
 .fa{
     margin: 0 10px;
 }
+
+.top__logos{
+    background-color: #08101E;
+}
+
+.top__next{
+    background: rgb(2, 10, 24);;
+    padding-top: 157px;
+    padding-bottom: 221px;
+}
+
+.next__content{
+    margin-bottom: 264px;
+    align-items: center;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.next__info_title{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+
+.next__info_text{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);   
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.next__info_buttons{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.next__grid_bloсk{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+
+.next__bloсk{
+    border-radius: 10px;
+    padding: 30px;
+    background: rgb(19, 32, 53);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.next__block_subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.next__block_text{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: center;
+}
+
+.info4{
+    grid-area: 2/1/4/3;
+    gap: 60px;
+}
+
+.next__content2{
+    margin-top: 243px;
+    gap: 25px;
+}
+
+.content2__info{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    max-width: 50%;
+}
+
+.content2__title{
+    
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+}
+
+.content2__text{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+
+.foter{
+    
+    background-color: #08101E;
+}
+
