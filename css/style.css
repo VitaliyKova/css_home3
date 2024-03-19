@@ -4,6 +4,10 @@
     font-family: Open Sans;
 }
 
+a{
+    text-decoration: none;
+}
+
 .top{
     background-color: #08101E;
     padding-bottom: 99px;
@@ -29,7 +33,6 @@
     font-weight: 600;
     line-height: 22px;
     text-align: left;
-    text-decoration: none;
 }
 
 .container{
@@ -104,7 +107,7 @@
 }
 
 .fa{
-    margin: 0 10px;
+    margin: 0 10px 0 0;
 }
 
 .top__logos{
@@ -227,7 +230,75 @@
 
 
 .foter{
-    
     background-color: #08101E;
+    padding-top: 48px;
+    padding-bottom: 46.11px;
 }
 
+.foter__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30.18px;
+    
+}
+
+.foter__info_title, .foter__about_title, .foter__social_title{
+    margin-bottom: 33px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+
+.flex_foter{
+    display: flex;
+}
+
+.email, .phone, .location{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.email{
+    padding-bottom: 24.4px;
+}
+
+.phone{
+    padding-bottom: 26px;
+}
+
+.foter__about_text{
+    opacity: 0.6;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 16px;
+    text-align: left;
+    max-width: 74%;
+}
+
+.foter__social_site{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+}
+
+.foter__social_icon{
+    display: flex;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.fa-brands{
+    font-size: 16px;
+}
