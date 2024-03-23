@@ -23,11 +23,11 @@ a{
 .nav{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 160px;
 }
 
 .header__lincs{
-    padding: 39px 20px;
+    padding: 39px 2%;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
@@ -35,16 +35,17 @@ a{
     text-align: left;
 }
 
-.container{
-    max-width: 1147px;
-    margin: 0 auto;
-    
+.top__content{
+    margin-bottom: 197px;
 }
 
-.top__content{
-    margin-top: 160px;
-    margin-bottom: 197px;
-    
+.container{
+    max-width: 1194px;
+    margin: 0 auto;
+}
+
+.top__block1{
+    padding: 0 2%;
 }
 
 .top__info{
@@ -83,7 +84,7 @@ a{
 .top_info__buttons{
     display: flex;
     margin-top: 50px;
-    gap: 20px;    
+    gap: 4%;    
 }
 
 .button{
@@ -114,6 +115,10 @@ a{
     background-color: #08101E;
 }
 
+.logo{
+    padding: 0 2%;
+}
+
 .top__next{
     background: rgb(2, 10, 24);;
     padding-top: 157px;
@@ -121,10 +126,11 @@ a{
 }
 
 .next__content{
+    padding: 0 2%;
     margin-bottom: 264px;
     align-items: center;
     flex-direction: row;
-    gap: 68px;
+    gap: 10%;
 }
 
 .next__info_title{
@@ -152,23 +158,26 @@ a{
 
 
 .next__grid_bloсk{
+    /* gap: 2%; */
+    padding: 0 2%;
+    margin-bottom: 243px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 30px;
+    
 }
 
 .next__bloсk{
+    padding: 5%;
     border-radius: 10px;
-    padding: 30px;
-    background: rgb(19, 32, 53);
     display: flex;
+    background: rgb(19, 32, 53);
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: flex-start;
     align-items: center;
-    gap: 30px;
+}
+
+.block_image{
+    max-width: 30%;
 }
 
 .next__block_subtitle{
@@ -191,11 +200,10 @@ a{
 
 .info4{
     grid-area: 2/1/4/3;
-    gap: 60px;
+
 }
 
 .next__content2{
-    margin-top: 243px;
     gap: 25px;
 }
 
